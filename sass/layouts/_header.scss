@@ -1,0 +1,54 @@
+.header {
+  background-color: $white;
+}
+
+.header-contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-contact .link {
+  color: $second-text-cl;
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.header-contact .link:hover,
+.header-contact .link:focus {
+  color: $accent;
+}
+
+.current::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: $accent;
+  margin-top: 28px;
+}
+
+.contact-link {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.header-svg {
+  fill: $second-text-cl;
+  padding-right: 10px;
+  height: 16px;
+  width: 26.14px;
+
+  .contact-link:hover &,
+  .contact-link:focus & {
+    fill: $accent;
+  }
+}
+
+.mail-link {
+  display: flex;
+  margin-right: 30px;
+}

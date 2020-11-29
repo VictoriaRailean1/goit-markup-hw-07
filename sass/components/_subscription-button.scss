@@ -1,0 +1,13 @@
+.subscription-button {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 28px;
+}
+.subscription-button-svg {
+  width: 24px;
+  height: 24px;
+  fill: $white;
+  margin-left: 10px;
+  padding: 0;
+}

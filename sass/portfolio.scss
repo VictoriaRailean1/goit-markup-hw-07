@@ -1,0 +1,22 @@
+/**,
+*::before,
+*::after {
+  box-sizing: border-box;
+}*/
+
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./base/fonts";
+@import "./base/normalize";
+@import "./base/common";
+@import "./components/logo";
+@import "./components/buttons";
+@import "./components/social";
+@import "./components/subscription";
+@import "./components/subscription-button";
+@import "./layouts/header";
+@import "./layouts/navigation";
+@import "./layouts/works-button";
+@import "./layouts/works";
+@import "./layouts/footer";
+@import "./layouts/footer-contacts";

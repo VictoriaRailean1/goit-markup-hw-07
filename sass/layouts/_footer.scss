@@ -1,0 +1,21 @@
+.page-footer {
+  background-color: $dark-bg;
+}
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: left;
+  width: 231px;
+  margin-right: 70px;
+}
+.footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-text {
+  color: $white;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+}

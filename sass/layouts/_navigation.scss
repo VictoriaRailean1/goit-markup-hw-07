@@ -1,0 +1,42 @@
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.site-nav {
+  display: inline-flex;
+
+  .link {
+    color: $primary-text-cl;
+    font-weight: 500;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+  }
+
+  .link.current {
+    color: $accent;
+  }
+
+  .link:hover,
+  .link:focus {
+    color: $accent;
+  }
+}
+
+.nav-link {
+  display: block;
+  align-items: center;
+  margin-top: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}

@@ -1,0 +1,23 @@
+address {
+  font-style: normal;
+}
+.address-list {
+  display: block;
+  flex-basis: 231px;
+}
+.address-link {
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.address-name {
+  color: $white;
+}
+.address-contact {
+  color: $footer-contact-text;
+}
+
+.address-item {
+  box-sizing: border-box;
+  margin-bottom: 9px;
+}
