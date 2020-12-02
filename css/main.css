@@ -900,6 +900,7 @@ img {
   border-radius: 4px;
   border: 1px solid #f5f4fa;
   margin-bottom: 30px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .principles-icons:not(:last-child) {
@@ -910,14 +911,15 @@ img {
   border-color: #2196f3;
 }
 
-.principles-icons .principles-icons-svg:hover,
-.principles-icons .principles-icons-svg:focus {
-  fill: #2196f3;
-}
-
 .principles-icons-svg {
   width: 70px;
   height: 70px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.principles-icons .principles-icons-svg:hover,
+.principles-icons .principles-icons-svg:focus {
+  fill: #2196f3;
 }
 
 .principles-title {
@@ -969,6 +971,7 @@ img {
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(47, 48, 58, 0.8);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .about-box:hover, .about-box:focus {
@@ -1043,6 +1046,7 @@ img {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover, .clients-link:focus {
@@ -1051,6 +1055,7 @@ img {
 
 .clients-svg {
   fill: #afb1b8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover .clients-svg,
